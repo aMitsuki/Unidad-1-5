@@ -1,21 +1,8 @@
-#include <iostream>
-
-void a()
-{
-	std::cout<< "a() called \n";
-	
-}
-
-
-void b(){
-	
-	std::cout<< "b() called\n";
-	a();
-}
+#include<iostream>
 
 int main(){
-	a();
-	b();
 	
-	return 0;
+	std::cout<< 5.0 << "\n";
+	std::cout<< 6.7f << "\n";
+	std::cout<<	9876543.21 << "\n";
 }

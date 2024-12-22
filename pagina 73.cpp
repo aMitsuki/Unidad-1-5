@@ -1,22 +1,12 @@
+#include <iomanip>
 #include <iostream>
-
-int add(int x, int y){
-	
-	return x + y;
-}
-
-void testadd(){
-	
-	std::cout <<"esta funcion deneria de imprimir : 2 0 0 -2 \n";
-	std::cout << add(1,1) << " ";
-	std::cout << add(-1, 1) << " ";
- 	std::cout << add(1, -1) << " ";
-	std::cout << add(-1 , -1) << " ";
-}
 
 int main(){
 	
-	testadd();
+	std::cout << std :: setprecision (16);
+	std::cout << 3.333333333333333333333333f << "\n";
+	std::cout << 3.333333333333333333333333f << "\n";
 	
 	return 0;
+	
 }
