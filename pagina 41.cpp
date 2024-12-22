@@ -2,8 +2,11 @@
 
 int main(){
 	
-	int x = 5;
-	std::cout<< (x ! = 5 ? x: "x is 5");
+	int y{1};
+	int x{2};
+	
+	++x;
+	std::cout<< ++y;
 	
 	return 0;
 }

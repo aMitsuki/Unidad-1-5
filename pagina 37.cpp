@@ -1,20 +1,15 @@
 #include <iostream>
 
-int gerValue()
-{
-	
-	std:: cerr << "gerValue () llamado \n";
-	return 4;
-	
-	
-}
-
 int main(){
 	
-	std:: cerr << "main () llamado \n";
-	std:: cout << getValue;
-	
+	int x{5};
+	int y{5};
+
+	std::cout << x << ' ' << y '\n'; 
+	std::cout << ++x << ' ' << --y << '\n';
+	std::cout << x << ' ' << y << '\n';
+	std::cout << x++ << ' ' << y-- << '\n'; 
+	std::cout << x << ' ' << y << '\n';
 	
 	return 0;
-	
-}
+	}

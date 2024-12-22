@@ -1,14 +1,6 @@
-#include <iostream>
+#include<cmath>
 
-void doSomething ()
+bool isAlmostEqual(double a, double b, double epsilon)
 {
-	std::cout << "¡hola! \n";
-}
-
-int main()
-{
-	int x {0}; //la vida de x comienza aqui
-	doSomething(); //x sigue vivo durante la llamada de funcion
-	return 0;
-	//la vida de x termina aqui
+	return std::abs(a - b) <= epsilon:
 }
